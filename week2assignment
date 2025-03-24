@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="This is a section of a Youth Church's First Timer's database">
+    <title>First Timer's Department</title>
+</head>
+<body>
+<header>
+   <h1>
+    Believer's Loveworld Campus Ministry Youth Church
+   </h1>
+   <h4>...giving your life a meaning in Christ</h4>
+   <img src="file:///C:/Users/PostOffice02/Downloads/pexels-wmbjacobs-31297363.jpg" alt="Description of the image" width="200px">
+   <h3>-About</h3>
+   <dl><h1>Living a life inspired by the power of Christ</h1></dl>
+   <dt>The BLW Campus Ministry, led by Pastor Chris, is a ministry that serves tertiary institutions globally and locally at the Fort Hare University campus in East London and Alice. 
+    Our mission is to impact communities, structures, and individuals, nurturing future generations poised to make a difference in the world. Our vision is to bring the divine presence of Jesus Christ to campuses and beyond, showcasing miracles and spreading His teachings through the Holy Spirit and the Word of God. We aim to empower students to realise their full potential in Christ, achieve their dreams, and engage in initiatives that enhance academic excellence and well-being through spiritual and psychological support. BLW places an emphasis on fostering leadership development through spiritual and psychological support. 
+    Additionally, our organisation provides entrepreneurial education to students. Below are our core values as a ministry:</dt>
+   <ol type="I">
+    <li>Loveworld Exceptionalism</li>
+    <li>Loveworld Expansionism</li>
+    <li>Loveworld Visionary</li>
+   </ol><hr>
+</header>
+<p>Register to become a member on Campus</p>
+<input type="text" name="username" placeholder="Enter your full name" required>
+<input type="email" name="useremail" placeholder="Enter your email address" required>
+<input type="text" name="faculty" placeholder="course of study">
+<input type="password" name="password" minlength="8" maxlength="20" placeholder="Create a password" required>
+<input type="datetime" name="date" placeholder="date of registration">
+
+<p>Faculty Information</p>
+<input type="checkbox" name="Faculty" placeholder="Pick a faculty" required>Faculty of Sciences</input>
+<input type="checkbox" name="Faculty">Faculty of Agriculture</input>
+<input type="checkbox" name="Faculty">Faculty of Arts and Music</input>
+<input type="checkbox" name="Faculty">Faculty of Law and Humanities</input><br>
+<br>
+<button type="submit" name="Submit">SubmitNow</button>
+<p>Meet our Board of Directors</p>
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">Full Name</th>
+        <th scope="col">Role</th>
+        <th scope="col">Email address</th>
+        <th scope="col">Contact details</th>
+        <th scope="col">Physical Address</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">Dr Edmore Chindenga</th>
+        <td>Office of the President</td>
+        <td>edmorechi@gmail.com</td>
+        <td>+27 745 342 231</td>
+        <td>49 Gonubie Wells Estate</td>
+      </tr>
+      <tr>
+        <th scope="row">Proffessor Esther Olaoye</th>
+        <td>Vice President</td>
+        <td>olaoyeos@gmail.com</td>
+        <td>+27 675 456 879</td>
+        <td>Orchids Residence 209</td>
+      </tr>
+      <tr>
+        <th scope="row">Mr Mveliso Oxhebo</th>
+        <td>Secretary</td>
+        <td>oxhebomveliso@gmail.com</td>
+        <td>+27 546 776 890</td>
+        <td>Zanzibar Estate no. 123</td>
+      </tr>
+      <tr>
+        <th scope="row">Mrs Genovia Landon</th>
+        <td>Academic Excellence department</td>
+        <td>ecadelandon@gmail.com</td>
+        <td>+27 566 476 190</td>
+        <td>Mthatha Westville Estate</td>
+      </tr>
+      <tr>
+        <th scope="row">Mr Loobey Gebertes</th>
+        <td>Admin Head</td>
+        <td>blwcampusadmin@gmail.com</td>
+        <td>+27 656 006 140</td>
+        <td>North Side Campus 2nd floor</td>
+      </tr>
+      </tbody>
+      </table>
+</body>
+<footer>
+    <p>&copy; 2025. BLW CM. All rights reserved.</p>
+</footer>
+</html>
